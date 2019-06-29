@@ -2473,4 +2473,15 @@ Connection ~ 11875 2575
 Wire Wire Line
 	12600 2575 12600 3250
 Connection ~ 12600 2575
+$Comp
+L keebio:ProMicro U?
+U 1 1 5D729A18
+P 1875 6100
+F 0 "U?" H 1875 6937 60  0000 C CNN
+F 1 "ProMicro" H 1875 6831 60  0000 C CNN
+F 2 "" V 2925 3600 60  0001 C CNN
+F 3 "" V 2925 3600 60  0001 C CNN
+	1    1875 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
