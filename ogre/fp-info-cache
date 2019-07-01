@@ -1,4 +1,4 @@
-16670327030427169
+16671936498858926
 aio3
 ALPS-1.5U
 
@@ -832,6 +832,13 @@ MX-ISO-ReversedStabilizers
 0
 8
 4
+aio3
+MXMin-1U
+
+
+0
+2
+2
 aio3
 MXOnly-1.5U
 
