@@ -2463,171 +2463,6 @@ Connection ~ 14825 2525
 Wire Wire Line
 	15550 2525 15550 3200
 Connection ~ 15550 2525
-$Comp
-L keebio:ProMicro U1
-U 1 1 5D196C3F
-P 8275 1400
-F 0 "U1" H 8275 2237 60  0000 C CNN
-F 1 "ProMicro" H 8275 2131 60  0000 C CNN
-F 2 "Keebio:ArduinoProMicro" V 9325 -1100 60  0001 C CNN
-F 3 "" V 9325 -1100 60  0001 C CNN
-	1    8275 1400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 7575 850 
-NoConn ~ 8975 850 
-Text GLabel 7450 950  0    50   Input ~ 0
-Row0
-Text GLabel 7450 1250 0    50   Input ~ 0
-Row1
-Text GLabel 7450 1350 0    50   Input ~ 0
-Row2
-Text GLabel 7450 1450 0    50   Input ~ 0
-Row3
-Text GLabel 7450 1550 0    50   Input ~ 0
-Row4
-Text GLabel 7450 1650 0    50   Input ~ 0
-Col0
-Text GLabel 7450 1750 0    50   Input ~ 0
-Col1
-Text GLabel 7450 1850 0    50   Input ~ 0
-Col2
-Text GLabel 7450 1950 0    50   Input ~ 0
-Col3
-Text GLabel 9100 1250 2    50   Input ~ 0
-Row5
-Text GLabel 9100 1350 2    50   Input ~ 0
-Row6
-Text GLabel 9100 1450 2    50   Input ~ 0
-Row7
-Text GLabel 9100 1550 2    50   Input ~ 0
-Row8
-Text GLabel 9100 1650 2    50   Input ~ 0
-Row9
-Text GLabel 9100 1750 2    50   Input ~ 0
-Col4
-Text GLabel 9100 1850 2    50   Input ~ 0
-Col5
-Text GLabel 9100 1950 2    50   Input ~ 0
-Col6
-Text GLabel 9100 1050 2    50   Input ~ 0
-RST
-Wire Wire Line
-	7450 950  7575 950 
-Wire Wire Line
-	7450 1250 7575 1250
-Wire Wire Line
-	7450 1350 7575 1350
-Wire Wire Line
-	7450 1450 7575 1450
-Wire Wire Line
-	7450 1550 7575 1550
-Wire Wire Line
-	7450 1650 7575 1650
-Wire Wire Line
-	7450 1750 7575 1750
-Wire Wire Line
-	7450 1850 7575 1850
-Wire Wire Line
-	7450 1950 7575 1950
-Wire Wire Line
-	8975 1050 9100 1050
-Wire Wire Line
-	8975 1250 9100 1250
-Wire Wire Line
-	8975 1350 9100 1350
-Wire Wire Line
-	8975 1450 9100 1450
-Wire Wire Line
-	8975 1550 9100 1550
-Wire Wire Line
-	8975 1650 9100 1650
-Wire Wire Line
-	8975 1750 9100 1750
-Wire Wire Line
-	8975 1850 9100 1850
-Wire Wire Line
-	8975 1950 9100 1950
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5D4311A1
-P 8325 2775
-F 0 "SW1" H 8325 3060 50  0000 C CNN
-F 1 "SW_Push" H 8325 2969 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 8325 2975 50  0001 C CNN
-F 3 "~" H 8325 2975 50  0001 C CNN
-	1    8325 2775
-	1    0    0    -1  
-$EndComp
-Text GLabel 8000 2775 0    50   Input ~ 0
-RST
-Wire Wire Line
-	8125 2775 8000 2775
-$Comp
-L power:GND #PWR0101
-U 1 1 5D1A8453
-P 7475 1150
-F 0 "#PWR0101" H 7475 900 50  0001 C CNN
-F 1 "GND" V 7480 1022 50  0000 R CNN
-F 2 "" H 7475 1150 50  0001 C CNN
-F 3 "" H 7475 1150 50  0001 C CNN
-	1    7475 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5D1C8A1C
-P 7475 1050
-F 0 "#PWR0102" H 7475 800 50  0001 C CNN
-F 1 "GND" V 7480 922 50  0000 R CNN
-F 2 "" H 7475 1050 50  0001 C CNN
-F 3 "" H 7475 1050 50  0001 C CNN
-	1    7475 1050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7475 1050 7575 1050
-Wire Wire Line
-	7475 1150 7575 1150
-$Comp
-L power:GND #PWR0103
-U 1 1 5D20A2EE
-P 8725 2775
-F 0 "#PWR0103" H 8725 2525 50  0001 C CNN
-F 1 "GND" V 8730 2647 50  0000 R CNN
-F 2 "" H 8725 2775 50  0001 C CNN
-F 3 "" H 8725 2775 50  0001 C CNN
-	1    8725 2775
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5D2694AD
-P 9075 950
-F 0 "#PWR0104" H 9075 700 50  0001 C CNN
-F 1 "GND" V 9080 822 50  0000 R CNN
-F 2 "" H 9075 950 50  0001 C CNN
-F 3 "" H 9075 950 50  0001 C CNN
-	1    9075 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR0105
-U 1 1 5D269F25
-P 9075 1150
-F 0 "#PWR0105" H 9075 1000 50  0001 C CNN
-F 1 "VCC" V 9092 1278 50  0000 L CNN
-F 2 "" H 9075 1150 50  0001 C CNN
-F 3 "" H 9075 1150 50  0001 C CNN
-	1    9075 1150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8975 1150 9075 1150
-Wire Wire Line
-	8975 950  9075 950 
-Wire Wire Line
-	8525 2775 8725 2775
 Wire Wire Line
 	11925 1350 11925 1850
 Connection ~ 11925 1850
@@ -2844,38 +2679,20 @@ Text GLabel 7450 5250 2    50   Input ~ 0
 RSTL
 Wire Wire Line
 	7450 5250 7250 5250
-Text GLabel 8675 5850 0    50   Input ~ 0
-Col0
-Text GLabel 8675 5950 0    50   Input ~ 0
-Col1
-Text GLabel 8675 6050 0    50   Input ~ 0
-Col2
-Text GLabel 8675 6150 0    50   Input ~ 0
-Col3
 Text GLabel 10425 5950 2    50   Input ~ 0
-Col4
-Text GLabel 10425 6050 2    50   Input ~ 0
 Col5
-Text GLabel 10425 6150 2    50   Input ~ 0
+Text GLabel 10425 6050 2    50   Input ~ 0
 Col6
 Text GLabel 10425 5850 2    50   Input ~ 0
-Row4
+Col4
 Text GLabel 10425 5750 2    50   Input ~ 0
-Row3
+Col3
 Text GLabel 10425 5650 2    50   Input ~ 0
-Row2
+Col2
 Text GLabel 10425 5550 2    50   Input ~ 0
-Row1
+Col1
 Text GLabel 10425 5450 2    50   Input ~ 0
-Row0
-Wire Wire Line
-	8675 5850 8850 5850
-Wire Wire Line
-	8675 5950 8850 5950
-Wire Wire Line
-	8675 6050 8850 6050
-Wire Wire Line
-	8675 6150 8850 6150
+Col0
 Wire Wire Line
 	10250 5450 10425 5450
 Wire Wire Line
@@ -2890,27 +2707,6 @@ Wire Wire Line
 	10250 5950 10425 5950
 Wire Wire Line
 	10250 6050 10425 6050
-Wire Wire Line
-	10425 6150 10250 6150
-$Comp
-L keebio:ProMicro U3
-U 1 1 5D9BAA97
-P 9550 5600
-F 0 "U3" H 9550 6437 60  0000 C CNN
-F 1 "ProMicro" H 9550 6331 60  0000 C CNN
-F 2 "Keebio:ArduinoProMicro" V 10600 3100 60  0001 C CNN
-F 3 "" V 10600 3100 60  0001 C CNN
-	1    9550 5600
-	1    0    0    -1  
-$EndComp
-Text GLabel 8700 5450 0    50   Input ~ 0
-SDA
-Text GLabel 8700 5550 0    50   Input ~ 0
-SCL
-NoConn ~ 8850 5650
-NoConn ~ 8850 5750
-NoConn ~ 8850 5150
-NoConn ~ 10250 5050
 $Comp
 L power:GND #PWR0110
 U 1 1 5D9BAAA7
@@ -2949,12 +2745,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 5350 8850 5350
 Wire Wire Line
-	8850 5450 8700 5450
-Wire Wire Line
-	8850 5550 8700 5550
-Wire Wire Line
 	10250 5150 10425 5150
-NoConn ~ 8850 5050
 $Comp
 L power:VCC #PWR0113
 U 1 1 5D9BAACB
@@ -3039,4 +2830,35 @@ F 3 "" H 6950 6675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6750 6675 6950 6675
+$Comp
+L keebio:ProMicro U3
+U 1 1 5D9BAA97
+P 9550 5600
+F 0 "U3" H 9550 6437 60  0000 C CNN
+F 1 "ProMicro" H 9550 6331 60  0000 C CNN
+F 2 "Keebio:ArduinoProMicro" V 10600 3100 60  0001 C CNN
+F 3 "" V 10600 3100 60  0001 C CNN
+	1    9550 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 5050 0    50   Input ~ 0
+H0
+Text GLabel 8650 5150 0    50   Input ~ 0
+H1
+Text GLabel 8650 5450 0    50   Input ~ 0
+H2
+Text GLabel 8650 5550 0    50   Input ~ 0
+H3
+Text GLabel 8650 5650 0    50   Input ~ 0
+H4
+Wire Wire Line
+	8650 5050 8850 5050
+Wire Wire Line
+	8850 5150 8650 5150
+Wire Wire Line
+	8850 5450 8650 5450
+Wire Wire Line
+	8850 5550 8650 5550
+Wire Wire Line
+	8850 5650 8650 5650
 $EndSCHEMATC
