@@ -2551,134 +2551,6 @@ Wire Wire Line
 Wire Wire Line
 	15950 3000 15350 3000
 Connection ~ 15350 3000
-Text GLabel 5675 5850 0    50   Input ~ 0
-Col0
-Text GLabel 5675 5950 0    50   Input ~ 0
-Col1
-Text GLabel 5675 6050 0    50   Input ~ 0
-Col2
-Text GLabel 5675 6150 0    50   Input ~ 0
-Col3
-Text GLabel 7425 5950 2    50   Input ~ 0
-Col4
-Text GLabel 7425 6050 2    50   Input ~ 0
-Col5
-Text GLabel 7425 6150 2    50   Input ~ 0
-Col6
-Text GLabel 7425 5850 2    50   Input ~ 0
-Row9
-Text GLabel 7425 5750 2    50   Input ~ 0
-Row8
-Text GLabel 7425 5650 2    50   Input ~ 0
-Row7
-Text GLabel 7425 5550 2    50   Input ~ 0
-Row6
-Text GLabel 7425 5450 2    50   Input ~ 0
-Row5
-Wire Wire Line
-	5675 5850 5850 5850
-Wire Wire Line
-	5675 5950 5850 5950
-Wire Wire Line
-	5675 6050 5850 6050
-Wire Wire Line
-	5675 6150 5850 6150
-Wire Wire Line
-	7250 5450 7425 5450
-Wire Wire Line
-	7250 5550 7425 5550
-Wire Wire Line
-	7250 5650 7425 5650
-Wire Wire Line
-	7250 5750 7425 5750
-Wire Wire Line
-	7250 5850 7425 5850
-Wire Wire Line
-	7250 5950 7425 5950
-Wire Wire Line
-	7250 6050 7425 6050
-Wire Wire Line
-	7425 6150 7250 6150
-$Comp
-L keebio:ProMicro U2
-U 1 1 5D3173D0
-P 6550 5600
-F 0 "U2" H 6550 6437 60  0000 C CNN
-F 1 "ProMicro" H 6550 6331 60  0000 C CNN
-F 2 "Keebio:ArduinoProMicro" V 7600 3100 60  0001 C CNN
-F 3 "" V 7600 3100 60  0001 C CNN
-	1    6550 5600
-	1    0    0    -1  
-$EndComp
-Text GLabel 5700 5450 0    50   Input ~ 0
-SDA
-Text GLabel 5700 5550 0    50   Input ~ 0
-SCL
-NoConn ~ 5850 5650
-NoConn ~ 5850 5750
-NoConn ~ 5850 5150
-NoConn ~ 7250 5050
-$Comp
-L power:GND #PWR0106
-U 1 1 5D83D258
-P 7425 5150
-F 0 "#PWR0106" H 7425 4900 50  0001 C CNN
-F 1 "GND" V 7430 5022 50  0000 R CNN
-F 2 "" H 7425 5150 50  0001 C CNN
-F 3 "" H 7425 5150 50  0001 C CNN
-	1    7425 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5D83E028
-P 5700 5350
-F 0 "#PWR0107" H 5700 5100 50  0001 C CNN
-F 1 "GND" V 5705 5222 50  0000 R CNN
-F 2 "" H 5700 5350 50  0001 C CNN
-F 3 "" H 5700 5350 50  0001 C CNN
-	1    5700 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5D83E374
-P 5700 5250
-F 0 "#PWR0108" H 5700 5000 50  0001 C CNN
-F 1 "GND" V 5705 5122 50  0000 R CNN
-F 2 "" H 5700 5250 50  0001 C CNN
-F 3 "" H 5700 5250 50  0001 C CNN
-	1    5700 5250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5700 5250 5850 5250
-Wire Wire Line
-	5700 5350 5850 5350
-Wire Wire Line
-	5850 5450 5700 5450
-Wire Wire Line
-	5850 5550 5700 5550
-Wire Wire Line
-	7250 5150 7425 5150
-NoConn ~ 5850 5050
-$Comp
-L power:VCC #PWR0109
-U 1 1 5D93396C
-P 7425 5350
-F 0 "#PWR0109" H 7425 5200 50  0001 C CNN
-F 1 "VCC" V 7442 5478 50  0000 L CNN
-F 2 "" H 7425 5350 50  0001 C CNN
-F 3 "" H 7425 5350 50  0001 C CNN
-	1    7425 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7425 5350 7250 5350
-Text GLabel 7450 5250 2    50   Input ~ 0
-RSTL
-Wire Wire Line
-	7450 5250 7250 5250
 Text GLabel 10425 5950 2    50   Input ~ 0
 Col5
 Text GLabel 10425 6050 2    50   Input ~ 0
@@ -2721,29 +2593,25 @@ $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5D9BAAB1
-P 8700 5350
-F 0 "#PWR0111" H 8700 5100 50  0001 C CNN
-F 1 "GND" V 8705 5222 50  0000 R CNN
-F 2 "" H 8700 5350 50  0001 C CNN
-F 3 "" H 8700 5350 50  0001 C CNN
-	1    8700 5350
+P 8775 5350
+F 0 "#PWR0111" H 8775 5100 50  0001 C CNN
+F 1 "GND" V 8780 5222 50  0000 R CNN
+F 2 "" H 8775 5350 50  0001 C CNN
+F 3 "" H 8775 5350 50  0001 C CNN
+	1    8775 5350
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0112
 U 1 1 5D9BAABB
-P 8700 5250
-F 0 "#PWR0112" H 8700 5000 50  0001 C CNN
-F 1 "GND" V 8705 5122 50  0000 R CNN
-F 2 "" H 8700 5250 50  0001 C CNN
-F 3 "" H 8700 5250 50  0001 C CNN
-	1    8700 5250
+P 8775 5250
+F 0 "#PWR0112" H 8775 5000 50  0001 C CNN
+F 1 "GND" V 8780 5122 50  0000 R CNN
+F 2 "" H 8775 5250 50  0001 C CNN
+F 3 "" H 8775 5250 50  0001 C CNN
+	1    8775 5250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8700 5250 8850 5250
-Wire Wire Line
-	8700 5350 8850 5350
 Wire Wire Line
 	10250 5150 10425 5150
 $Comp
@@ -2830,6 +2698,54 @@ F 3 "" H 6950 6675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6750 6675 6950 6675
+Text GLabel 8650 5450 0    50   Input ~ 0
+Row2
+Text GLabel 8650 5550 0    50   Input ~ 0
+Row3
+Text GLabel 8650 5650 0    50   Input ~ 0
+Row4
+Wire Wire Line
+	8850 5450 8650 5450
+Wire Wire Line
+	8850 5550 8650 5550
+Wire Wire Line
+	8850 5650 8650 5650
+Text GLabel 8650 5750 0    50   Input ~ 0
+Row5
+Text GLabel 8650 5850 0    50   Input ~ 0
+Row6
+Text GLabel 8650 5950 0    50   Input ~ 0
+Row7
+Text GLabel 8650 6050 0    50   Input ~ 0
+Row8
+Text GLabel 8650 6150 0    50   Input ~ 0
+Row9
+Text GLabel 8375 5050 0    50   Input ~ 0
+Row0
+Text GLabel 8375 5250 0    50   Input ~ 0
+SDA
+Text GLabel 8375 5150 0    50   Input ~ 0
+Row1
+Text GLabel 8375 4950 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	8850 5050 8425 5050
+Wire Wire Line
+	8850 5150 8425 5150
+Wire Wire Line
+	8375 4950 8425 4950
+Wire Wire Line
+	8425 4950 8425 5050
+Connection ~ 8425 5050
+Wire Wire Line
+	8425 5050 8375 5050
+Wire Wire Line
+	8375 5250 8425 5250
+Wire Wire Line
+	8425 5250 8425 5150
+Connection ~ 8425 5150
+Wire Wire Line
+	8425 5150 8375 5150
 $Comp
 L keebio:ProMicro U3
 U 1 1 5D9BAA97
@@ -2841,24 +2757,154 @@ F 3 "" V 10600 3100 60  0001 C CNN
 	1    9550 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8650 5050 0    50   Input ~ 0
-H0
-Text GLabel 8650 5150 0    50   Input ~ 0
-H1
-Text GLabel 8650 5450 0    50   Input ~ 0
-H2
-Text GLabel 8650 5550 0    50   Input ~ 0
-H3
-Text GLabel 8650 5650 0    50   Input ~ 0
-H4
 Wire Wire Line
-	8650 5050 8850 5050
+	8850 5250 8775 5250
 Wire Wire Line
-	8850 5150 8650 5150
+	8850 5350 8775 5350
 Wire Wire Line
-	8850 5450 8650 5450
+	8850 5750 8650 5750
 Wire Wire Line
-	8850 5550 8650 5550
+	8850 5850 8650 5850
 Wire Wire Line
-	8850 5650 8650 5650
+	8850 5950 8650 5950
+Wire Wire Line
+	8850 6050 8650 6050
+Wire Wire Line
+	8850 6150 8650 6150
+Text GLabel 7775 5950 2    50   Input ~ 0
+Col5
+Text GLabel 7775 6050 2    50   Input ~ 0
+Col6
+Text GLabel 7775 5850 2    50   Input ~ 0
+Col4
+Text GLabel 7775 5750 2    50   Input ~ 0
+Col3
+Text GLabel 7775 5650 2    50   Input ~ 0
+Col2
+Text GLabel 7775 5550 2    50   Input ~ 0
+Col1
+Text GLabel 7775 5450 2    50   Input ~ 0
+Col0
+Wire Wire Line
+	7600 5450 7775 5450
+Wire Wire Line
+	7600 5550 7775 5550
+Wire Wire Line
+	7600 5650 7775 5650
+Wire Wire Line
+	7600 5750 7775 5750
+Wire Wire Line
+	7600 5850 7775 5850
+Wire Wire Line
+	7600 5950 7775 5950
+Wire Wire Line
+	7600 6050 7775 6050
+$Comp
+L power:GND #PWR0101
+U 1 1 5D74844A
+P 7775 5150
+F 0 "#PWR0101" H 7775 4900 50  0001 C CNN
+F 1 "GND" V 7780 5022 50  0000 R CNN
+F 2 "" H 7775 5150 50  0001 C CNN
+F 3 "" H 7775 5150 50  0001 C CNN
+	1    7775 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D748454
+P 6125 5350
+F 0 "#PWR0102" H 6125 5100 50  0001 C CNN
+F 1 "GND" V 6130 5222 50  0000 R CNN
+F 2 "" H 6125 5350 50  0001 C CNN
+F 3 "" H 6125 5350 50  0001 C CNN
+	1    6125 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D74845E
+P 6125 5250
+F 0 "#PWR0103" H 6125 5000 50  0001 C CNN
+F 1 "GND" V 6130 5122 50  0000 R CNN
+F 2 "" H 6125 5250 50  0001 C CNN
+F 3 "" H 6125 5250 50  0001 C CNN
+	1    6125 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 5150 7775 5150
+$Comp
+L power:VCC #PWR0104
+U 1 1 5D748469
+P 7775 5350
+F 0 "#PWR0104" H 7775 5200 50  0001 C CNN
+F 1 "VCC" V 7792 5478 50  0000 L CNN
+F 2 "" H 7775 5350 50  0001 C CNN
+F 3 "" H 7775 5350 50  0001 C CNN
+	1    7775 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7775 5350 7600 5350
+Text GLabel 7800 5250 2    50   Input ~ 0
+RSTL
+Wire Wire Line
+	7800 5250 7600 5250
+Wire Wire Line
+	6200 5450 6000 5450
+Wire Wire Line
+	6200 5550 6000 5550
+Wire Wire Line
+	6200 5650 6000 5650
+Text GLabel 6000 5750 0    50   Input ~ 0
+Row0
+Text GLabel 6000 5850 0    50   Input ~ 0
+Row1
+Text GLabel 6000 5950 0    50   Input ~ 0
+Row2
+Text GLabel 6000 6050 0    50   Input ~ 0
+Row3
+Text GLabel 6000 6150 0    50   Input ~ 0
+Row4
+Text GLabel 5725 5150 0    50   Input ~ 0
+SDA
+Text GLabel 5725 5050 0    50   Input ~ 0
+SCL
+$Comp
+L keebio:ProMicro U2
+U 1 1 5D74848F
+P 6900 5600
+F 0 "U2" H 6900 6437 60  0000 C CNN
+F 1 "ProMicro" H 6900 6331 60  0000 C CNN
+F 2 "Keebio:ArduinoProMicro" V 7950 3100 60  0001 C CNN
+F 3 "" V 7950 3100 60  0001 C CNN
+	1    6900 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5250 6125 5250
+Wire Wire Line
+	6200 5350 6125 5350
+Wire Wire Line
+	6200 5750 6000 5750
+Wire Wire Line
+	6200 5850 6000 5850
+Wire Wire Line
+	6200 5950 6000 5950
+Wire Wire Line
+	6200 6050 6000 6050
+Wire Wire Line
+	6200 6150 6000 6150
+Wire Wire Line
+	5725 5150 6200 5150
+Wire Wire Line
+	5725 5050 6200 5050
+NoConn ~ 6000 5450
+NoConn ~ 6000 5550
+NoConn ~ 6000 5650
+NoConn ~ 7600 5050
+NoConn ~ 7600 6150
+NoConn ~ 10250 6150
+NoConn ~ 10250 5050
 $EndSCHEMATC
