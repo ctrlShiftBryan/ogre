@@ -2723,11 +2723,11 @@ Row9
 Text GLabel 8375 5050 0    50   Input ~ 0
 Row0
 Text GLabel 8375 5250 0    50   Input ~ 0
-SDA
+SDA1
 Text GLabel 8375 5150 0    50   Input ~ 0
 Row1
 Text GLabel 8375 4950 0    50   Input ~ 0
-SCL
+SCL1
 Wire Wire Line
 	8850 5050 8425 5050
 Wire Wire Line
@@ -2868,9 +2868,9 @@ Row3
 Text GLabel 6000 6150 0    50   Input ~ 0
 Row4
 Text GLabel 5725 5150 0    50   Input ~ 0
-SDA
+SDA2
 Text GLabel 5725 5050 0    50   Input ~ 0
-SCL
+SCL2
 $Comp
 L keebio:ProMicro U2
 U 1 1 5D74848F
@@ -2907,4 +2907,19 @@ NoConn ~ 7600 5050
 NoConn ~ 7600 6150
 NoConn ~ 10250 6150
 NoConn ~ 10250 5050
+$Comp
+L Connector:AudioJack4 J?
+U 1 1 5DAA32CA
+P 4275 5775
+F 0 "J?" H 4232 6100 50  0000 C CNN
+F 1 "AudioJack4" H 4232 6009 50  0000 C CNN
+F 2 "" H 4275 5775 50  0001 C CNN
+F 3 "~" H 4275 5775 50  0001 C CNN
+	1    4275 5775
+	1    0    0    -1  
+$EndComp
+Text GLabel 4575 5675 2    50   Input ~ 0
+VCC1
+Wire Wire Line
+	4575 5675 4475 5675
 $EndSCHEMATC
